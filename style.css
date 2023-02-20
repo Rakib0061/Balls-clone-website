@@ -891,6 +891,7 @@ margin-bottom: 12px;
 
 .del {
     display: flex;
+    align-items: center;
 }
 
 .del del {

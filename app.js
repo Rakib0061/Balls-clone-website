@@ -1,6 +1,22 @@
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 3,
   spaceBetween: 10,
+  breakpoints: {
+    // when window width is min 0px
+    0: {
+      slidesPerView: 1,
+      spaceBetween: 10,
+    },
+    // when window width is min 576px
+    576: {
+      slidesPerView: 2,
+      spaceBetween:20,
+    },
+    768: {
+      slidesPerView: 3,
+      spaceBetween: 5,
+    }
+  }
 
 });
 
