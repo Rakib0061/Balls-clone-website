@@ -121,6 +121,7 @@ nav.navbar.navbar-expand-xxl {
 .first {
     padding-bottom: 40px;
     display: inline-block;
+    margin-top: 35px;
 }
 
 .manu_chart {
@@ -598,6 +599,10 @@ padding: 0 0 60px;
     box-sizing: border-box;
     padding: 15px;
   }
+
+  .swiper-pagination-bullets-dynamic {
+    display: none;
+}
 
   .mySwiper2 .swiper-slide {
     width: 25%;
