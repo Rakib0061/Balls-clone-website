@@ -1,6 +1,23 @@
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 3,
   spaceBetween: 10,
+  breakpoints: {
+    // when window width is min 0px
+    0: {
+      slidesPerView: 1,
+      spaceBetween: 10,
+    },
+    // when window width is min 576px
+    576: {
+      slidesPerView: 2,
+      spaceBetween:20,
+    },
+    // when window width is min 768px
+    768: {
+      slidesPerView: 3,
+      spaceBetween: 5,
+    }
+  }
 
 });
 
@@ -17,6 +34,10 @@ var swiper2 = new Swiper(".mySwiper3", {
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    dynamicBullets: true,
   },
   thumbs: {
     swiper: swiper,
