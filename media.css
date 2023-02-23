@@ -755,7 +755,7 @@
 
     .hero_area {
         height: 400px;
-        background-position: -525px;
+        background-position: -615px;
     }
 
     .shop_now {
@@ -849,7 +849,8 @@
     }
 
     .exclusive_slider h2 {
-        font-size: 18px;
+        font-size: 16px;
+        margin-bottom: 10px;
     }
 
     .exclusive_slider span {
@@ -857,11 +858,21 @@
     }
 
     .exclusive_slider i {
-        font-size: 15px;
+        font-size: 12px;
+        width: 16px;
     }
 
     .exclusive_slider::after {
         width: 220px;
+        bottom: -24px;
+    }
+
+    .exclusive_slider p {
+        font-size: 13px;
+    }
+
+    .mySwiper3 {
+        height: 82%;
     }
 
     .swiper-slide p {
@@ -909,7 +920,7 @@
     }
 
     .get_trimmong_left_img2 {
-        right: 8%;
+        right: 9%;
         top: 14%;
         max-width: 85px;
     }
@@ -951,7 +962,7 @@
     }
 
     .item_list_ul {
-        justify-content: left;
+        justify-content: center;
     }
 
     .item_list ul {
